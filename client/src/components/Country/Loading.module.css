@@ -1,0 +1,28 @@
+.div{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 90vh;
+}
+.img{
+ background: url(../tierra.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ height: 350px;
+ width: 350px;
+ animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+.div h1{
+    text-align: center;
+    font-size: 1.7rem;
+    color: #fff;
+}

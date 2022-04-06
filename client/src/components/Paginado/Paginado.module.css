@@ -1,0 +1,41 @@
+
+.nextButton, .prevButton {
+  align-items: center;
+  appearance: none;
+  background-color: rgb(40, 145, 243);
+  background-image: linear-gradient(1deg, #4F58FD, rgb(40, 145, 243)99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border: 0;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px;
+  
+}
+.paginate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: .8rem;
+  list-style: none;
+  cursor: pointer;
+}
+.paginate li{
+  display: inline-block;
+  margin: 0 5px;
+  background-color: #4F58FD;
+  border-radius: 100px;
+  padding: 5px 10px;
+  color: #FFFFFF;
+  width: 40px;
+}
+
+

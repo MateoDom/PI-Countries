@@ -1,0 +1,113 @@
+body{
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../Home/mundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 230px);
+    grid-gap: 10px;
+    padding: 40px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    }
+.flex_container{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+.left_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px
+    ;
+    }
+
+.link{
+        text-decoration: none;       
+    }
+.loading{
+   color: aliceblue;
+   font-size: 3rem;
+   text-align: center;
+}
+.paginado{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    background-color: #212121;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px rgb(40, 145, 243);
+    margin-top: 20px;
+}
+.container h1{
+    color: #fff;
+    font-size: 1.6rem;
+    background-color: rgb(13, 59, 102);
+    border-radius: 4px;
+    padding: 5px;
+  
+}
+.name, .population{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name h2, .population h2{
+    background-color: rgb(66, 65, 65);
+    color:rgb(97, 179, 255);
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 4px 0;
+}
+.asc,.desc{
+    width: 60px;
+    margin: 2px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .6 ease;
+}
+.asc:hover,.desc:hover{
+    background-color: rgb(13, 59, 102);
+    color: #fff
+}
+.asc:focus,.desc:focus{
+    outline: none;
+    background-color: rgb(13, 59, 102);
+    color: #fff
+}
+
+.clear{
+    width: 80px;
+    height: 40px;
+    margin: 10px 50px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .6 ease;
+}
+.clear:hover{
+    background-color: rgb(13, 59, 102);
+    color: #fff
+}

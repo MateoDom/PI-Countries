@@ -1,0 +1,61 @@
+.form_container {
+  max-width: 500px;
+  margin: 2rem auto;
+  border: 2px solid rgb(41, 128, 185);
+  border-radius: 4px;
+  padding: 2rem;
+  background-color: #212121;
+}
+.form_container label{
+    display: block;
+    padding: .4rem 0;
+    color: rgb(52, 162, 236);
+    font-size: 1.2rem;
+}
+.form_container input{
+    display: block;
+    width: 100%;
+    border: 2px solid rgb(41, 128, 185);
+    padding: .2rem;
+    border-radius: 4px;
+    outline: none;
+    font-size: 0.8rem;
+    color:#000 ;
+}
+.form_container input::placeholder{
+    color: #212121;
+}
+.form_container button{
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+.form_container h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.form_container .btn{
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    padding: .6rem;
+    background-color: rgb(41, 128, 185);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1rem;
+}
+.form_container .btn:hover{
+    background-color: rgb(78, 78, 78);
+    
+}
+
+.countries h3{
+color: rgb(52, 162, 236);
+}
+.countries p, .form_container p {
+    color: #fff;
+    font-size: 1rem;
+}

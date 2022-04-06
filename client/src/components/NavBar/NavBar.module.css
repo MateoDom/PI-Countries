@@ -1,0 +1,24 @@
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    padding: 15px 30px;
+    border-bottom: 3px solid rgb(40, 145, 243);
+}
+.nav_home{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.nav_home span{
+    color: rgb(40, 145, 243);
+    text-decoration: none;
+}
+.nav_text{
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+}

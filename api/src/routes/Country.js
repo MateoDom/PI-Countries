@@ -17,7 +17,8 @@ const CountriesAPI = async ()=>{
                 capital: !c.capital? c.capital = "No tiene capital": c.capital[0],
                 subregion: c.subregion,
                 area: c.area,
-                population: c.population
+                population: c.population,
+              
 
             }
         })
@@ -74,7 +75,7 @@ router.get('/', async (req, res, next)=>{
           res.status(200).send(find)
       }
     } catch(err){
-        return err
+        res.status(404).send(err)
     }
 
 })

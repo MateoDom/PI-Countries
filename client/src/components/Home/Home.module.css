@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana;
+    font-weight: 800;
+}
+
+    
+    
+
+
+.content{
+      width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('mundo.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+   
+}
+
+.text{
+    color: #fff;
+    margin-top: 80px;
+    position: absolute;
+    margin: auto;
+   
+    width: 500px;
+    height: 80px;
+    overflow: hidden;
+    
+}
+.list{
+    list-style: none;
+    font-size: 4rem;
+    margin:0;
+    animation: word 8s ease 1s infinite ;
+    
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-top: 200px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #fff ;
+    color: rgb(9, 10, 68);
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+.btn a{
+    text-decoration: none;
+    color:  rgb(9, 10, 68);
+}
+
+
+@keyframes word {
+    0%{ margin-top: 0; }
+    5%{margin-top: 0;}
+    25%{margin-top: -80px;}
+    50%{margin-top: -160px;}
+    75%{margin-top: -240px;}
+    100%{margin-top: 0px;}
+}

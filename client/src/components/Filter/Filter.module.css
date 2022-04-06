@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    background-color: #212121;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px rgb(40, 145, 243);
+}
+.container h1{
+    color: #fff;
+    font-size: 1.6rem;
+    background-color: rgb(13, 59, 102);
+    border-radius: 4px;
+    padding: 5px;
+}
+.continents h2, .activities h2{
+    background-color: rgb(66, 65, 65);
+    color:rgb(97, 179, 255);
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 4px 0;
+}
+.select{
+    width: 100%;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgb(97, 179, 255);
+    color: #000;
+    font-size: .9rem;
+
+}
+.select:focus{
+    outline: none;
+}
+
+
